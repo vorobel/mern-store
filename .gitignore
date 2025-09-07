@@ -1,0 +1,74 @@
+# --- Root .gitignore for MERN monorepo (frontend + backend) ---
+
+# Node / package managers
+**/node_modules/
+.pnp.*
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Logs / diagnostics
+logs/
+**/logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs / bundles
+**/dist/
+**/build/
+**/.output/
+**/.cache/
+**/.vite/
+**/.parcel-cache/
+**/.rpt2_cache/
+**/.eslintcache
+**/.turbo/
+**/.next/
+**/.nuxt/
+
+# Coverage / testing
+**/coverage/
+**/.nyc_output/
+**/.vitest*/
+**/jest-html-reporters-*/
+**/junit.xml
+
+# Environment files (keep examples)
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env*.example
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# TypeScript (if added later)
+**/*.tsbuildinfo
+
+# Local runtime temp
+tmp/
+**/tmp/
+.cache/
+*.swp
+*.swo
+
+# Misc host/CI
+.vercel/
+.netlify/
+.envrc
